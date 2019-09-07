@@ -1,0 +1,36 @@
+panels:
+  example:
+    perm: default
+    rows: '1'
+    title: '&8Example GUI'
+    command: example
+    empty: STAINED_GLASS_PANE
+    emptyID: '15'
+    open-with-item:
+      material: GRASS
+      ID: '0'
+      name: '&aSurvival Panel'
+      lore:
+      - '&2Open the panel'
+      - '&2to heal yourself and change gamemode to survival.'
+    item:
+      '4':
+        material: GRASS
+        stack: '1'
+        ID: '0'
+        name: '&aSurvival'
+        lore:
+        - '&2Heal Yourself and'
+        - '&2change gamemode to survival.'
+        commands:
+        - heal
+        - gamemode survival
+        - trade
+        noperm:
+          perm: essentials.gamemode
+          material: BARRIER
+          name: '&cSurvival'
+          ID: '0'
+          lore:
+          - '&4Heal Yourself and'
+          - '&4change gamemode to survival.'

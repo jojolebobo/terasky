@@ -1,0 +1,43 @@
+panels:
+  msg:
+    perm: default
+    rows: '3'
+    title: '&8Menu de gestion des messages'
+    command: msg
+    empty: STAINED_GLASS_PANE
+    emptyID: '15'
+    item:
+      '11':
+        material: PAPER
+        stack: '1'
+        ID: '0'
+        name: '&eEnvoie un message privé à un joueur'
+        commands:
+        - msg= &eTape /msg <Nom Joueur> <message>
+        - cpc
+      '13':
+        material: STRUCTURE_VOID
+        stack: '1'
+        ID: '0'
+        name: '&eIgnore les messages d''un joueur'
+        lore:
+        - '&7Retape la commande pour annuler'
+        - '&7l''ignorance du joueur'
+        commands:
+        - msg= &eTape /ignore <Nom Joueur>
+        - cpc
+      '15':
+        material: MAP
+        stack: '1'
+        ID: '0'
+        name: '&eEnvoie un message à l''équipe de modération'
+        commands:
+        - msg= &eTape /helpop <message>
+        - cpc
+      '18':
+        material: SPECTRAL_ARROW
+        stack: '1'
+        ID: '0'
+        name: '&c&lRetour'
+        commands:
+        - cp general

@@ -1,0 +1,45 @@
+panels:
+  trade:
+    perm: default
+    rows: '3'
+    title: '&8Menu d''échanges'
+    command: trade
+    empty: STAINED_GLASS_PANE
+    emptyID: '15'
+    item:
+      '11':
+        material: WOOL
+        stack: '1'
+        ID: 5
+        name: '&aAccepter l''offre d''échange'
+        commands:
+        - trade accept
+        - cpc
+      '13':
+        material: PAPER
+        stack: '1'
+        ID: '0'
+        name: '&ePropose un échange en toute sécurité'
+        lore:
+        - '&7Cet échange est possible'
+        - '&7entre deux joueurs'
+        - '&7Vous pouvez échanger des'
+        - '&7objets et de l''argent'
+        commands:
+         - msg= &eUtilise la commande /trade <Pseudo du partenaire>
+         - cpc
+      '15':
+        material: WOOL
+        stack: '1'
+        ID: 14
+        name: '&cRefuser l''offre d''échange'
+        commands:
+        - trade deny
+        - cpc
+      '18':
+        material: SPECTRAL_ARROW
+        stack: '1'
+        ID: '0'
+        name: '&c&lRetour'
+        commands:
+        - cp general

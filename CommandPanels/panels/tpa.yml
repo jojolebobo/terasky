@@ -1,0 +1,41 @@
+panels:
+  tpa:
+    perm: default
+    rows: '3'
+    title: '&8Menu pour te tp à un joueur'
+    command: tpa
+    empty: STAINED_GLASS_PANE
+    emptyID: '15'
+    item:
+      '11':
+        material: WOOL
+        stack: '1'
+        ID: 5
+        name: '&aAccepte la demande de tp'
+        commands:
+        - tpaccept
+      '13':
+        material: ENDER_PEARL
+        stack: '1'
+        ID: '0'
+        name: '&eDemande de tp à un joueur'
+        lore:
+        - '&7Le joueur doit accepter ta demande'
+        - '&7La demande dure 120 secondes'
+        commands:
+        - msg= &eTape /tpa <Nom joueur>
+        - cpc
+      '15':
+        material: WOOL
+        stack: '1'
+        ID: 14
+        name: '&cRefus de la demande de tp'
+        commands:
+        - tpdeny
+      '18':
+        material: SPECTRAL_ARROW
+        stack: '1'
+        ID: '0'
+        name: '&c&lRetour'
+        commands:
+        - cp general

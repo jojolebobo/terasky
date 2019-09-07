@@ -1,0 +1,101 @@
+# EssentialsX kit configuration.
+# If you don't have any kits defined in this file, the plugin will try to copy them from the config.yml
+
+# Note: All items MUST be followed by a quantity!
+# All kit names should be lower case, and will be treated as lower in permissions/costs.
+# Syntax: - name[:durability] amount [enchantment:level]... [itemmeta:value]...
+# For Item Meta information visit http://wiki.ess3.net/wiki/Item_Meta
+# 'delay' refers to the cooldown between how often you can use each kit, measured in seconds.
+# Set delay to -1 for a one time kit.
+# For more information, visit http://wiki.ess3.net/wiki/Kits
+kits:
+  debutant:
+    delay: 86400
+    items:
+      - stonesword 1 lore:&a&oKit_Débutant
+      - stoneshovel 1 lore:&a&oKit_Débutant
+      - stonepickaxe 1 lore:&a&oKit_Débutant
+      - stoneaxe 1 lore:&a&oKit_Débutant
+      - bread 16
+      - chainmail_helmet 1 lore:&a&oKit_Débutant
+      - chainmail_chestplate 1 lore:&a&oKit_Débutant
+      - chainmail_leggings 1 lore:&a&oKit_Débutant
+      - chainmail_boots 1 lore:&a&oKit_Débutant
+  vip:
+    delay: 86400
+    items:
+      - ironsword 1 lore:&9&oKit_Vip 
+      - ironshovel 1 lore:&9&oKit_Vip
+      - ironpickaxe 1 lore:&9&oKit_Vip
+      - ironaxe 1 lore:&9&oKit_Vip
+      - bread 64
+      - iron_helmet 1 lore:&9&oKit_Vip
+      - gold_chestplate 1 lore:&9&oKit_Vip
+      - gold_leggings 1 lore:&9&oKit_Vip
+      - iron_boots 1 lore:&9&oKit_Vip
+  fulldiamsp4:
+    delay: 10
+    items:
+      - dsword 1 sharpness:5 knockback:2 fireaspect:2 lore:&aObtenu_par_achat|&asur_notre_site
+      - dhelmet 1 protection:4 unbreaking:3 lore:&aObtenu_par_achat|&asur_notre_site
+      - dchestplate 1 protection:4 unbreaking:3 lore:&aObtenu_par_achat|&asur_notre_site
+      - dleggings 1 protection:4 unbreaking:3 lore:&aObtenu_par_achat|&asur_notre_site
+      - dboots 1 protection:4 unbreaking:3 lore:&aObtenu_par_achat|&asur_notre_site
+  petit_mineur:
+    delay: 10
+    items:
+      - iron_ore 50 lore:&aKit_petit_mineur
+      - gold_ore 25 lore:&aKit_petit_mineur
+      - diamond_ore 5 lore:&aKit_petit_mineur
+      - emerald_ore 5  lore:&aKit_petit_mineur
+      - redstone_ore 10 lore:&aKit_petit_mineur
+      - lapis_ore 10 lore:&aKit_petit_mineur
+      - coal_ore 20 lore:&aKit_petit_mineur
+      - quartz_ore 5 lore:&aKit_petit_mineur
+  moyen_mineur:
+    delay: 10
+    items:
+      - iron_ore 100 lore:&aKit_mineur_moyen
+      - gold_ore 50 lore:&aKit_mineur_moyen
+      - diamond_ore 10 lore:&aKit_mineur_moyen
+      - emerald_ore 10  lore:&aKit_mineur_moyen
+      - redstone_ore 20 lore:&aKit_mineur_moyen
+      - lapis_ore 20 lore:&aKit_mineur_moyen
+      - coal_ore 40 lore:&aKit_mineur_moyen
+      - quartz_ore 10 lore:&aKit_mineur_moyen
+  grand_mineur:
+    delay: 10
+    items:
+      - iron_ore 200 lore:&aKit_grand_mineur
+      - gold_ore 100 lore:&aKit_grand_mineur
+      - diamond_ore 20 lore:&aKit_grand_mineur
+      - emerald_ore 20  lore:&aKit_grand_mineur
+      - redstone_ore 40 lore:&aKit_grand_mineur
+      - lapis_ore 40 lore:&aKit_grand_mineur
+      - coal_ore 80 lore:&aKit_grand_mineur
+      - quartz_ore 20 lore:&aKit_grand_mineur
+  menu:
+    delay: 10
+    items:
+      - firework_charge 1 name:&9&lMenu lore:&aClick_gauche_ou_droit_pour|&r&aouvrir_le_menu_de_commandes
+  dtools:
+    delay: 600
+    items:
+      - dpickaxe 1 efficiency:1 durability:1 fortune:1 name:&4Gigadrill lore:The_drill_that_&npierces|the_heavens
+      - dshovel 1 digspeed:3 name:Dwarf lore:Diggy|Diggy|Hole
+      - lhelm 1 color:255,255,255 name:Top_Hat lore:Good_day,_Good_day
+      - daxe:780 1
+  notch:
+    delay: 6000
+    items:
+      - playerhead 1 player:Notch
+  color:
+    delay: 6000
+    items:
+      - writtenbook 1 title:&4Book_&9o_&6Colors author:KHobbits lore:Ingame_color_codes book:Colors
+  firework:
+    delay: 6000
+    items:
+      - fireworkrocket 1 name:Angry_Creeper color:red fade:green type:creeper power:1
+      - fireworkrocket 1 name:Starry_Night color:yellow,orange fade:blue type:star effect:trail,twinkle power:1
+      - fireworkrocket 2 name:Solar_Wind color:yellow,orange fade:red shape:large effect:twinkle color:yellow,orange fade:red shape:ball effect:trail color:red,purple fade:pink shape:star effect:trail power:1

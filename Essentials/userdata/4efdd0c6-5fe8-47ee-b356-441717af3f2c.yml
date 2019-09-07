@@ -1,0 +1,33 @@
+lastAccountName: Etiku
+timestamps:
+  login: 1567867006650
+  logout: 1567860695732
+  kits:
+    firework: 1567385714950
+    color: 1567385597710
+    fulldiamsp4: 1567387321179
+    notch: 1567386058667
+    petit_mineur: 1567386304213
+    debutant: 1567843300985
+    vip: 1567294281695
+    menu: 1567858901713
+    dtools: 1567387306273
+    grand_mineur: 1567386007095
+  lastteleport: 1567838270295
+ipAddress: 89.81.178.1
+logoutlocation:
+  world: ASkyBlock
+  x: 403.8204508734689
+  y: 117.0
+  z: 398.6265742192868
+  yaw: -65.55377
+  pitch: 17.144886
+lastlocation:
+  world: ASkyBlock
+  x: 2.8801670912127353
+  y: 116.0
+  z: 400.5915998143837
+  yaw: 93.07306
+  pitch: 26.209435
+afk: false
+money: '2290.0'

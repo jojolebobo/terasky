@@ -1,0 +1,77 @@
+panels:
+  general:
+    perm: default
+    rows: '6'
+    title: '&8Menu général'
+    command: general
+    empty: STAINED_GLASS_PANE
+    emptyID: '15'
+    item:
+      '4':
+        material: BEACON
+        stack: '1'
+        ID: '0'
+        name: '&6&lSpawn'
+        lore:
+        - '&7Téléporte toi au spawn'
+        commands:
+        - is spawn
+      '20':
+        material: CHEST
+        stack: '1'
+        ID: '0'
+        name: '&eMenu des kits'
+        commands:
+        - cp kits
+      '30':
+        material: PAPER
+        stack: '1'
+        ID: '0'
+        name: '&eAccède au menu des messages'
+        commands:
+        - cp msg
+      '32':
+        material: ENDER_PORTAL_FRAME
+        stack: '1'
+        ID: '0'
+        name: '&eAccède au menu pour te tp à un joueur'
+        commands:
+        - cp tpa
+      '24':
+        material: GOLD_INGOT
+        stack: '1'
+        ID: '0'
+        name: '&eSolde de ton compte'
+        lore:
+        - '&7Consulte le solde restant sur compte'
+        commands:
+        - balance
+        - cpc
+      '38':
+        material: DIAMOND
+        stack: '1'
+        ID: '0'
+        name: '&bFait un échange'
+        lore:
+        - '&7Echange avec un autre joueur'
+        - '&7Assure toi d''être à moins de 15 blocs de lui'
+        commands: 
+         - cp trade
+      '40':
+        material: GRASS
+        stack: '1'
+        ID: '0'
+        name: '&aSkyBlock'
+        lore:
+        - '&7Commandes relatives à ton île'
+        commands:
+        - cp skyblock
+      '42':
+        material: ENDER_PEARL
+        stack: '1'
+        ID: '0'
+        name: '&9Zones'
+        lore:
+        - '&7Téléporte toi à différentes zones du serveur'
+        commands:
+        - cp zones

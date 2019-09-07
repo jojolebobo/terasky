@@ -1,0 +1,134 @@
+playerName: Nomiia
+hasIsland: true
+islandLocation: ASkyBlock:400:115:-400:0:0
+hasTeam: false
+teamLeader: ''
+teamIslandLocation: ''
+islandLevel: 159
+members: []
+resetsLeft: 1
+deaths: 3
+locale: ''
+useControlPanel: false
+startIslandRating: 50
+homeLocations:
+  '1': ASkyBlock:401:119:-402:1121166443:1093486696
+challenges:
+  status:
+    expert: false
+    advanced: false
+    dj: false
+    craftsman: false
+    beaconator: false
+    stewmaker: false
+    enderpearls: false
+    pioneer: false
+    shepherd: false
+    culinaryartist: false
+    acidduke: false
+    ittakesavillage: false
+    elite: false
+    homestead: false
+    mason: false
+    builder: true
+    dyemaker: true
+    itsamonsterparty: false
+    glassmaker: true
+    novice: false
+    nether: false
+    alchemist: false
+    gemcollector: false
+    grinder: false
+    papermaker: true
+    cobblemaker: true
+    seedbank: true
+    cookiemaker: false
+    slimeballfarmer: false
+    itsaparty: false
+    competent: true
+    baker: false
+    breadmaker: true
+    myprecious: false
+    snowplay: false
+    farmer: false
+    angler: false
+    treecutter: true
+  times:
+    expert: 0
+    advanced: 0
+    dj: 0
+    craftsman: 0
+    beaconator: 0
+    stewmaker: 0
+    enderpearls: 0
+    pioneer: 0
+    shepherd: 0
+    culinaryartist: 0
+    acidduke: 0
+    ittakesavillage: 0
+    elite: 0
+    homestead: 0
+    mason: 0
+    builder: 1
+    dyemaker: 6
+    itsamonsterparty: 0
+    glassmaker: 2
+    novice: 0
+    nether: 0
+    alchemist: 0
+    gemcollector: 0
+    grinder: 0
+    papermaker: 13
+    cobblemaker: 1
+    seedbank: 1
+    cookiemaker: 0
+    slimeballfarmer: 0
+    itsaparty: 0
+    competent: 1
+    baker: 0
+    breadmaker: 3
+    myprecious: 0
+    snowplay: 0
+    farmer: 0
+    angler: 0
+    treecutter: 4
+  timestamp:
+    expert: 0
+    advanced: 0
+    dj: 0
+    craftsman: 0
+    beaconator: 0
+    stewmaker: 0
+    enderpearls: 0
+    pioneer: 0
+    shepherd: 0
+    culinaryartist: 0
+    acidduke: 0
+    ittakesavillage: 0
+    elite: 0
+    homestead: 0
+    mason: 0
+    builder: 1567545118954
+    dyemaker: 1567618536013
+    itsamonsterparty: 0
+    glassmaker: 1567546314256
+    novice: 0
+    nether: 0
+    alchemist: 0
+    gemcollector: 0
+    grinder: 0
+    papermaker: 1567622626630
+    cobblemaker: 1567546382369
+    seedbank: 1567621235928
+    cookiemaker: 0
+    slimeballfarmer: 0
+    itsaparty: 0
+    competent: 0
+    baker: 0
+    breadmaker: 1567680021870
+    myprecious: 0
+    snowplay: 0
+    farmer: 0
+    angler: 0
+    treecutter: 1567630593858
+islandInfo: 400:115:-400:100:200:1ad789f6-c3f8-421c-9529-1f61bf36c5a9:false:false:11000000000001101010100001000101111000100000111:SAVANNA:3

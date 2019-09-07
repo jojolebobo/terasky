@@ -1,0 +1,11 @@
+users:
+- username: admin
+  password: u95pifc2e8WAtTBV2ppDkLAV6
+  logging: true
+  groups:
+  - full_control
+- username: chatonly
+  password: example
+  logging: true
+  groups:
+  - chat_only

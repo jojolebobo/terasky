@@ -1,0 +1,4 @@
+[1] Rester prudent sur le serveur
+[2] Respecter les autres joueurs
+[3] Pas de language SMS
+[4] Pas d'insultes

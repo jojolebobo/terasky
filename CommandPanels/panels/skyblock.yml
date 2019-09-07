@@ -1,0 +1,92 @@
+panels:
+  skyblock:
+    perm: default
+    rows: '6'
+    title: '&8Commandes de SkyBlock'
+    command: skyblock
+    empty: STAINED_GLASS_PANE
+    emptyID: '15'
+    item:
+      '3':
+        material: NETHER_STAR
+        stack: '1'
+        ID: '0'
+        name: '&eNiveau de l''île'
+        commands:
+        - is level
+        - cpc
+      '5':
+        material: BOOK
+        stack: '1'
+        ID: '0'
+        name: '&bTop 10 des îles'
+        lore:
+        - '&7Pour rafraîchir ton classement,'
+        - '&7consulte le niveau de ton île'
+        commands:
+        - is top
+      '13':
+        material: TOTEM
+        stack: '1'
+        ID: '0'
+        name: '&eMenu relatif aux autres joueurs'
+        lore:
+        - '&7Ce menu te permet de gérer les relations'
+        - '&7des autres joueurs avec ton île'
+        commands:
+        - cp multi
+      '29':
+        material: ENCHANTED_BOOK
+        stack: '1'
+        ID: '0'
+        name: '&eChallenges'
+        lore:
+        - '&7Challenges qu''il te reste à accomplir'
+        commands:
+        - challenges
+      '31':
+        material: GRASS
+        stack: '1'
+        ID: '0'
+        name: '&aTéléporte toi sur ton île'
+        lore:
+        - '&7Si tu n''as pas d''île,'
+        - '&7cette commande t''en crée une'
+        commands:
+        - is
+      '33':
+        material: SIGN
+        stack: '1'
+        ID: '0'
+        name: '&9Warps'
+        lore:
+        - '&7Téléporte toi sur l''île d''autres joueurs'
+        commands:
+        - is warps
+      '47':
+        material: SLIME_BALL
+        stack: '1'
+        ID: '0'
+        name: '&aConsulte la valeurs du bloc dans ta main'
+        lore:
+        - '&7Cette valeur correspond'
+        - '&7aux points que te fais'
+        - '&7gagner ce bloc pour'
+        - '&7augmenter le niveau de ton île'
+        commands:
+        - msg= &aTape /is value
+        - cpc
+      '51':
+        material: REDSTONE_COMPARATOR
+        stack: '1'
+        ID: '0'
+        name: '&cParamètres de ton île'
+        commands:
+        - cp parametres
+      '45':
+        material: SPECTRAL_ARROW
+        stack: '1'
+        ID: '0'
+        name: '&c&lRetour'
+        commands:
+        - cp general

@@ -1,0 +1,134 @@
+playerName: Etiku
+hasIsland: true
+islandLocation: ASkyBlock:0:115:400:0:0
+hasTeam: false
+teamLeader: ''
+islandLevel: 114
+members: []
+resetsLeft: 1
+deaths: 10
+locale: ''
+useControlPanel: false
+teamIslandLocation: ''
+startIslandRating: 50
+homeLocations:
+  '1': ASkyBlock:4:116:400:1119171264:1101371940
+challenges:
+  status:
+    expert: false
+    advanced: false
+    dj: false
+    craftsman: true
+    beaconator: false
+    stewmaker: false
+    enderpearls: false
+    pioneer: false
+    shepherd: false
+    culinaryartist: false
+    acidduke: false
+    ittakesavillage: false
+    elite: false
+    homestead: false
+    mason: false
+    builder: true
+    dyemaker: true
+    itsamonsterparty: false
+    glassmaker: true
+    novice: false
+    nether: false
+    alchemist: false
+    gemcollector: false
+    grinder: false
+    papermaker: true
+    cobblemaker: true
+    seedbank: true
+    cookiemaker: false
+    slimeballfarmer: false
+    itsaparty: false
+    competent: true
+    baker: false
+    breadmaker: true
+    myprecious: false
+    snowplay: false
+    farmer: true
+    angler: false
+    treecutter: false
+  times:
+    expert: 0
+    advanced: 0
+    dj: 0
+    craftsman: 1
+    beaconator: 0
+    stewmaker: 0
+    enderpearls: 0
+    pioneer: 0
+    shepherd: 0
+    culinaryartist: 0
+    acidduke: 0
+    ittakesavillage: 0
+    elite: 0
+    homestead: 0
+    mason: 0
+    builder: 1
+    dyemaker: 8
+    itsamonsterparty: 0
+    glassmaker: 2
+    novice: 0
+    nether: 0
+    alchemist: 0
+    gemcollector: 0
+    grinder: 0
+    papermaker: 19
+    cobblemaker: 65
+    seedbank: 1
+    cookiemaker: 0
+    slimeballfarmer: 0
+    itsaparty: 0
+    competent: 1
+    baker: 0
+    breadmaker: 5
+    myprecious: 0
+    snowplay: 0
+    farmer: 1
+    angler: 0
+    treecutter: 0
+  timestamp:
+    expert: 0
+    advanced: 0
+    dj: 0
+    craftsman: 1567772905566
+    beaconator: 0
+    stewmaker: 0
+    enderpearls: 0
+    pioneer: 0
+    shepherd: 0
+    culinaryartist: 0
+    acidduke: 0
+    ittakesavillage: 0
+    elite: 0
+    homestead: 0
+    mason: 0
+    builder: 1567518829901
+    dyemaker: 1567848468168
+    itsamonsterparty: 0
+    glassmaker: 1567604089620
+    novice: 0
+    nether: 0
+    alchemist: 0
+    gemcollector: 0
+    grinder: 0
+    papermaker: 1567835995546
+    cobblemaker: 1567868979420
+    seedbank: 1567605645612
+    cookiemaker: 0
+    slimeballfarmer: 0
+    itsaparty: 0
+    competent: 0
+    baker: 0
+    breadmaker: 1567844040014
+    myprecious: 0
+    snowplay: 0
+    farmer: 1567838358432
+    angler: 0
+    treecutter: 0
+islandInfo: 0:115:400:100:200:4efdd0c6-5fe8-47ee-b356-441717af3f2c:false:false:11000000000001101010100000000101111000100000111:PLAINS:3

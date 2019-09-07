@@ -1,0 +1,16 @@
+messagespawn:
+  location: ASkyBlock, -87.468, 102.500, -191.553
+  lines:
+  - '&6Bienvenue sur &f&lT&e&le&a&lR&6&la&e&lS&1&lk&4&lY'
+  - Tape /kit menu pour obtenir l'item de commandes !
+  - Pour les &a&lTeraCitizen &rle kit &a&ldebutant &rest disponible tous les jours!
+  - Pour les &9&lVIP &rle kit &9&lvip &rest disponible tous les jours!
+shop:
+  location: ASkyBlock, -87.457, 103.000, -116.300
+  lines:
+  - Bienvenue au magasin!
+  - Ici tu peux utiliser tes Tera pour acheter ou vendre des items
+vip:
+  location: ASkyBlock, -87.613, 116.493, -191.485
+  lines:
+  - '&9&lZone VIP'

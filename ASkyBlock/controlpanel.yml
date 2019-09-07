@@ -1,0 +1,75 @@
+# Control panel file
+# For colors in panel name use &. Note client must restart if changes made as it caches inventory.
+# [island] refers to the island command, e.g., /island
+# material format is MATERIAL:DURABILITY where DURABILITY is optional
+# description can include color codes using & and new lines using |
+
+default:
+  panelname: '&1Commandes'
+  buttons:
+    0:
+      material: GRASS
+      description: 'Téléporte toi sur ton île'
+      command: '[island] go'
+      nextsection: ''
+    1:
+      material: SKULL_ITEM
+      description: 'Liste des membres de ta team'
+      command: '[island] team'
+      nextsection:
+    3:
+      material: NETHER_STAR
+      description: 'Niveau de l''île'
+      command: '[island] level'
+      nextsection:
+    4:
+      material: BOOK
+      description: 'Liste du Top 10 des îles'
+      command: '[island] top'
+      nextsection:
+    5:
+      material: SIGN
+      description: 'Liste des warps disponibles'
+      command: '[island] warps'
+      nextsection:
+    6:
+      material: BEACON
+      description: 'Accède au spawn'
+      command: '[island] spawn'
+      nextsection:
+    7:
+      material: SAPLING
+      description: 'Change le biome'
+      command: '[island] biomes'
+      nextsection: ''
+    8:
+      material: ENCHANTED_BOOK
+      description: 'Objectifs'
+      command: 'asc'
+      nextsection: ''
+    9:
+      material: EMERALD
+      description: '&aMagasin'
+      command: 'warp shop'
+      nextsection: ''
+    10:
+      material: GOLD_INGOT
+      description: '&aSolde de ton compte'
+      command: 'balance'
+      nextsection: ''
+    11:
+      material: DRAGON_EGG
+      description: '&9&lZone VIP'
+      command: 'warp vip'
+      nextsection: ''
+    17:
+      material: REDSTONE
+      description: '&cListe de toutes les commandes de SkyBlock'
+      command: '[island] help'
+      nextsection: ''
+    18:
+      material: PAPER
+      description: '&cListe de toutes les autres commandes'
+      command: 'help'
+      nextsection: ''
+

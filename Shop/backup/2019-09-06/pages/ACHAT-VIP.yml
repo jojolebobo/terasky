@@ -1,0 +1,548 @@
+data:
+  properties:
+    type: 0
+    title: Shop
+    size: 54
+    gui: false
+  inventory:
+    slots:
+    - 0
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 8
+    - 9
+    - 12
+    - 14
+    - 17
+    - 19
+    - 20
+    - 21
+    - 23
+    - 24
+    - 25
+    - 31
+    - 36
+    - 37
+    - 38
+    - 40
+    - 42
+    - 43
+    - 44
+    - 45
+    - 46
+    - 47
+    - 51
+    - 52
+    - 53
+    items:
+    - ? type: MONSTER_EGG
+      : meta-type: SPAWN_EGG
+        internal: H4sIAAAAAAAAAONiYOBi4HTNK8ksqQxJTOdgYMpMYRDMzcxLTS5KTCuxSs7ITM5OzWNgAAB4qmmVKQAAAA==
+        id: chicken
+    - ? type: STONE
+      : null
+    - ? type: COBBLESTONE
+      : null
+    - ? type: GRAVEL
+      : null
+    - ? type: DIRT
+      : null
+    - ? type: GRASS
+      : null
+    - ? type: MONSTER_EGG
+      : meta-type: SPAWN_EGG
+        internal: H4sIAAAAAAAAAONiYOBi4HTNK8ksqQxJTOdgYMpMYeDNzcxLTS5KTCuxKshMZ2AAANkfh0IlAAAA
+        id: pig
+    - ? type: MONSTER_EGG
+      : meta-type: SPAWN_EGG
+        internal: H4sIAAAAAAAAAONiYOBi4HTNK8ksqQxJTOdgYMpMYeDNzcxLTS5KTCuxSs4vZ2AAACcOilwlAAAA
+        id: cow
+    - ? type: ICE
+      : null
+    - ? type: SAND
+      : null
+    - ? type: MONSTER_EGG
+      : meta-type: SPAWN_EGG
+        internal: H4sIAAAAAAAAAONiYOBi4HTNK8ksqQxJTOdgYMpMYeDPzcxLTS5KTCuxKs5ITS1gYAAAYb2CQScAAAA=
+        id: sheep
+    - ? type: LOG
+        damage: 2
+      : null
+    - ? type: LOG
+        damage: 1
+      : null
+    - ? type: LOG
+      : null
+    - ? type: LOG
+        damage: 3
+      : null
+    - ? type: LOG_2
+        damage: 1
+      : null
+    - ? type: LOG_2
+      : null
+    - ? type: ENDER_CHEST
+      : null
+    - ? type: DIAMOND_BLOCK
+      : null
+    - ? type: GOLD_BLOCK
+      : null
+    - ? type: IRON_BLOCK
+      : null
+    - ? type: NETHER_STAR
+      : null
+    - ? type: COAL_BLOCK
+      : null
+    - ? type: REDSTONE_BLOCK
+      : null
+    - ? type: LAPIS_BLOCK
+      : null
+    - ? type: DIAMOND
+      : null
+    - ? type: GOLD_INGOT
+      : null
+    - ? type: IRON_INGOT
+      : null
+    - ? type: COAL
+      : null
+    - ? type: REDSTONE
+      : null
+    - ? type: INK_SACK
+        damage: 4
+      : null
+    slotdata:
+      '0':
+        page: ACHAT
+        cost: 3600.0
+        sell: 1000.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '1':
+        page: ACHAT
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '2':
+        page: ACHAT
+        cost: 5.4
+        sell: 5.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '3':
+        page: ACHAT
+        cost: 3.6
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '4':
+        page: ACHAT
+        cost: 18.0
+        sell: 5.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '5':
+        page: ACHAT
+        cost: 270.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '6':
+        page: ACHAT
+        cost: 6300.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '7':
+        page: ACHAT
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '8':
+        page: ACHAT
+        cost: 900.0
+        sell: 250.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '9':
+        page: ACHAT
+        cost: 1800.0
+        sell: 500.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '10':
+        page: ACHAT
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '11':
+        page: ACHAT
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '12':
+        page: ACHAT
+        cost: 9.0
+        sell: 5.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '13':
+        page: ACHAT
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '14':
+        page: ACHAT
+        cost: 108.0
+        sell: 50.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '15':
+        page: ACHAT
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '16':
+        page: ACHAT
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '17':
+        page: ACHAT
+        cost: 2700.0
+        sell: 750.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '18':
+        page: ACHAT
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '19':
+        page: ACHAT
+        cost: 13.5
+        sell: 5.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '20':
+        page: ACHAT
+        cost: 16.2
+        sell: 6.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '21':
+        page: ACHAT
+        cost: 18.9
+        sell: 7.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '22':
+        page: ACHAT
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '23':
+        page: ACHAT
+        cost: 10.8
+        sell: 4.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '24':
+        page: ACHAT
+        cost: 13.5
+        sell: 5.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '25':
+        page: ACHAT
+        cost: 16.2
+        sell: 6.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '26':
+        page: ACHAT
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '27':
+        page: ACHAT
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '28':
+        page: ACHAT
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '29':
+        page: ACHAT
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '30':
+        page: ACHAT
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '31':
+        page: ACHAT
+        cost: 18000.0
+        sell: 5000.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '32':
+        page: ACHAT
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '33':
+        page: ACHAT
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '34':
+        page: ACHAT
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '35':
+        page: ACHAT
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '36':
+        page: ACHAT
+        cost: 6390.0
+        sell: 1880.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '37':
+        page: ACHAT
+        cost: 1548.0
+        sell: 830.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '38':
+        page: ACHAT
+        cost: 702.0
+        sell: 285.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '39':
+        page: ACHAT
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '40':
+        page: ACHAT
+        cost: 112500.0
+        sell: 20000.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '41':
+        page: ACHAT
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '42':
+        page: ACHAT
+        cost: 193.5
+        sell: 95.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '43':
+        page: ACHAT
+        cost: 387.0
+        sell: 190.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '44':
+        page: ACHAT
+        cost: 1548.0
+        sell: 830.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '45':
+        page: ACHAT
+        cost: 540.0
+        sell: 200.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '46':
+        page: ACHAT
+        cost: 180.0
+        sell: 90.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '47':
+        page: ACHAT
+        cost: 81.0
+        sell: 30.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '48':
+        page: ACHAT
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '49':
+        page: ACHAT
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '50':
+        page: ACHAT
+        cost: 0.0
+        sell: 0.0
+        cooldown: 0
+        visibility: Visible
+        function: None
+        guifunction: None
+      '51':
+        page: ACHAT
+        cost: 22.5
+        sell: 10.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '52':
+        page: ACHAT
+        cost: 45.0
+        sell: 20.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None
+      '53':
+        page: ACHAT
+        cost: 180.0
+        sell: 90.0
+        cooldown: 0
+        visibility: Visible
+        function: Buy
+        guifunction: None

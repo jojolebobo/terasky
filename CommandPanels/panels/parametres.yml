@@ -1,0 +1,69 @@
+panels:
+  parametres:
+    perm: default
+    rows: '6'
+    title: '&8Paramètres de ton île'
+    command: parametres
+    empty: STAINED_GLASS_PANE
+    emptyID: '15'
+    item:
+      '4':
+        material: DIODE
+        stack: '1'
+        ID: '0'
+        name: '&7Affiche les paramètres de ton île'
+        commands:
+        - is settings
+      '21':
+        material: BARRIER
+        stack: '1'
+        ID: '0'
+        name: '&l&cReset'
+        lore:
+        - '&7Attention, cette commande'
+        - '&7réinitialise ton île'
+        - '&7et en crée une nouvelle.'
+        - '&7&lMax 2 fois par joueur'
+        commands:
+        - is reset
+        - cpc
+      '23':
+        material: BED
+        stack: '1'
+        ID: '0'
+        name: '&ePositionne le home de ton île'
+        commands:
+        - is sethome
+        - cpc
+      '38':
+        material: NAME_TAG
+        stack: '1'
+        ID: '0'
+        name: '&eChange le nom de ton île'
+        commands:
+        - msg= &eTape /is name <Nouveau Nom>
+        - cpc
+      '40':
+        material: TRIPWIRE_HOOK
+        stack: '1'
+        ID: '0'
+        name: '&aAccès visiteur'
+        lore:
+        - '&7Ouvre/Ferme ton île aux autres joueurs'
+        commands:
+        - is lock
+        - cpc
+      '42':
+        material: SAPLING
+        stack: '1'
+        ID: '0'
+        name: '&aChange le biome de ton île'
+        commands:
+        - is biomes
+      '45':
+        material: SPECTRAL_ARROW
+        stack: '1'
+        ID: '0'
+        name: '&c&lRetour'
+        commands:
+        - cp skyblock   

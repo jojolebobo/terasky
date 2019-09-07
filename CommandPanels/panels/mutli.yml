@@ -1,0 +1,138 @@
+panels:
+  multi:
+    perm: default
+    rows: '6'
+    title: '&8Menu de gestion des joueurs'
+    command: multi
+    empty: STAINED_GLASS_PANE
+    emptyID: '15'
+    item:
+      '4':
+        material: NETHER_STAR
+        stack: '1'
+        ID: '0'
+        name: '&eChangement de propriétaire'
+        lore:
+        - '&7Change le propriétaire de ton île'
+        commands:
+        - msg= &eTape /is makeleader <Nom du joueur>
+        - cpc
+      '18':
+        material: DROPPER
+        stack: '1'
+        ID: '0'
+        name: '&aInvitation pour coopération'
+        lore:
+        - '&7Permet de faire une'
+        - '&7coopération avec un joueur'
+        - '&7Il pourra éditer ton île comme'
+        - '&7la sienne et son île n''est pas supprimée'
+        commands:
+        - msg= &aTape /is coop <Nom joueur>
+        - cpc
+      '22':
+        material: PAPER
+        stack: '1'
+        ID: '0'
+        name: '&bInvitation'
+        lore:
+        - '&7Accepte ou refuse une invitation'
+        commands:
+        - msg= &bTape /is <accept/reject> pour accepter ou refuser 
+        - cpc
+      '26':
+        material: CONCRETE
+        stack: '1'
+        ID: 14
+        name: '&cBan un joueur de ton île'
+        lore:
+        - '&7Le joueur ne pourra plus visiter ton île'
+        commands:
+        - msg= &cTape /is ban <Nom joueur>
+        - cpc
+      '27':
+        material: OBSERVER
+        stack: '1'
+        ID: '0'
+        name: '&cStop la coopération avec un joueur'
+        lore:
+        - '&7Le joueur ne pourra plus modifier ton île'
+        commands:
+        - msg= &cTape /is uncoop <Nom joueur>
+        - cpc
+      '31':
+        material: BOOK
+        stack: '1'
+        ID: '0'
+        name: '&eInformations sur ta team'
+        commands:
+        - is team
+      '35':
+        material: RED_ROSE
+        stack: '1'
+        ID: '0'
+        name: '&aUnban un joueur de ton île'
+        lore:
+        - '&7Le joueur pourra de-nouveau visiter ton île'
+        commands:
+        - msg= &aTape /is unban <Nom joueur>
+        - cpc
+      '36':
+        material: BOOK
+        stack: '1'
+        ID: '0'
+        name: '&eListe des joueurs en coopération avec toi'
+        commands:
+        - is listcoops
+        - cpc
+      '39':
+        material: STRUCTURE_VOID
+        stack: '1'
+        ID: '0'
+        name: '&cKick un joueur de ta team'
+        lore:
+        - '&7Le joueur sera expulser de ta team,'
+        - '&7il ne pourra plus éditer ton île'
+        commands:
+        - msg= &cTape /is kick <Nom joueur>
+        - cpc
+      '41':
+        material: PISTON_BASE
+        stack: '1'
+        ID: '0'
+        name: '&cKick un joueur de ton île'
+        lore:
+        - '&7Le joueur sera expulsé de ton île'
+        - '&7il peut revenir'
+        - '&7(cela n''influe en aucun cas sur'
+        - '&7la coopération et la team)'
+        commands:
+        - msg= &cTape /is expel <Nom joueur>
+        - cpc
+      '44':
+        material: BOOK
+        stack: '1'
+        ID: '0'
+        name: '&eListe des joueurs bannis de ton île'
+        commands:
+        - is banlist
+        - cpc
+      '49':
+        material: ARROW
+        stack: '1'
+        ID: '0'
+        name: '&aInvite un joueur à rejoindre ton île (team)'
+        lore:
+        - '&7Attention, cette commande permet'
+        - '&7au joueur invité d''éditer ton île'
+        - '&c&lSon île sera supprimée'
+        commands:
+        - msg= &aTape /is invite <nom joueur>
+        - cpc
+      '45':
+        material: SPECTRAL_ARROW
+        stack: '1'
+        ID: '0'
+        name: '&c&lRetour'
+        commands:
+        - cp skyblock   

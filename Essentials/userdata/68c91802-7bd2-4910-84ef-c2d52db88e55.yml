@@ -1,0 +1,23 @@
+lastAccountName: TitusBru
+timestamps:
+  login: 1567705509800
+  logout: 1567705669809
+  kits:
+    menu: 1567611132259
+  lastteleport: 1567616722203
+ipAddress: 78.237.234.6
+logoutlocation:
+  world: ASkyBlock
+  x: 402.88041762165875
+  y: 120.0
+  z: 0.3530288782355893
+  yaw: -273.74933
+  pitch: 24.90012
+lastlocation:
+  world: ASkyBlock
+  x: 403.23030233151826
+  y: 120.0
+  z: 0.09133802603722906
+  yaw: 94.19922
+  pitch: 32.701664
+money: '20'

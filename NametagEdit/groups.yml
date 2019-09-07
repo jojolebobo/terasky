@@ -1,0 +1,27 @@
+Groups:
+
+  Admin:
+    Permission: nte.admin
+    Prefix: '&6'
+    Suffix: ''
+    SortPriority: 1
+  Moderator:
+    Permission: nte.moderator
+    Prefix: '&4'
+    Suffix: ''
+    SortPriority: 2
+  Builder:
+    Permission: nte.builder
+    Prefix: '&3'
+    Suffix: ''
+    SortPriority: 3
+  VIP:
+    Permission: nte.vip
+    Prefix: '&9'
+    Suffix: ''
+    SortPriority: 4
+  Citoyen:
+    Permission: nte.citi
+    Prefix: '&a'
+    Suffix: ''
+    SortPriority: 5

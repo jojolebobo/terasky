@@ -1,0 +1,4 @@
+&6Bienvenue, {PLAYER} &6sur&f&l T&e&le&a&lR&6&la&e&lS&1&lk&4&lY
+&6Ecris &c/help&6 pour la liste des commandes.
+&6Ecis &c/list&6 pour voir qui est en ligne.
+&6Joueurs en ligne:&c {ONLINE} &6- Temps du monde:&c {WORLDTIME12}

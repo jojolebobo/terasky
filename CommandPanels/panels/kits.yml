@@ -1,0 +1,30 @@
+panels:
+  kits:
+    perm: default
+    rows: '3'
+    title: '&8Menu des kits'
+    command: kits
+    empty: STAINED_GLASS_PANE
+    emptyID: '15'
+    item:
+      '12':
+        material: STONE_SWORD
+        stack: '1'
+        ID: '0'
+        name: '&a&lKit débutant'
+        commands:
+        - kit debutant
+      '14':
+        material: IRON_SWORD
+        stack: '1'
+        ID: '0'
+        name: '&9&lKit VIP'
+        commands:
+        - kit vip
+      '18':
+        material: SPECTRAL_ARROW
+        stack: '1'
+        ID: '0'
+        name: '&c&lRetour'
+        commands:
+        - cp general

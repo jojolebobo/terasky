@@ -1,0 +1,36 @@
+lastAccountName: Zygoto
+timestamps:
+  login: 1567840848757
+  logout: 1567845405080
+  lastteleport: 1567792163464
+  kits:
+    moyen_mineur: 1567434598096
+    firework: 1567425802345
+    fulldiamsp4: 1567436307713
+    minerais: 1567372999850
+    notch: 1567329331673
+    petit_mineur: 1567679450263
+    debutant: 1567519789135
+    vip: 1567302053864
+    dtools: 1567333289678
+    menu: 1567679945899
+    tools: 1567272260174
+    grand_mineur: 1567435019114
+ipAddress: 77.204.255.14
+logoutlocation:
+  world: ASkyBlock
+  x: -200.5331179333082
+  y: 122.0
+  z: 205.73411280988464
+  yaw: -201.95386
+  pitch: 38.307053
+lastlocation:
+  world: ASkyBlock
+  x: 404.255430770354
+  y: 115.80948674189209
+  z: 369.83839226894764
+  yaw: -21.22107
+  pitch: 2.2762828
+powertools: {}
+afk: false
+money: '1700.0'

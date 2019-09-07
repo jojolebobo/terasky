@@ -1,0 +1,25 @@
+lastAccountName: Nomiia
+timestamps:
+  login: 1567842942634
+  kits:
+    debutant: 1567779783090
+    menu: 1567836945693
+  lastteleport: 1567841640051
+  logout: 1567842872779
+ipAddress: 77.134.34.253
+lastlocation:
+  world: ASkyBlock
+  x: 402.77827583890326
+  y: 119.0
+  z: -400.9537166640444
+  yaw: -99.6926
+  pitch: -10.547791
+money: '19505.0'
+logoutlocation:
+  world: ASkyBlock
+  x: 417.6638029924913
+  y: 20.0
+  z: -397.69999998807907
+  yaw: -82.60455
+  pitch: 31.709091
+afk: false

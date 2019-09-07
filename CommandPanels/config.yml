@@ -1,0 +1,16 @@
+config:
+  version: '3.0'
+  update-notifications: 'true'
+  format:
+    perms: '&cNo permission.'
+    reload: '&aReloaded.'
+    nopanel: '&cPanel not found.'
+    noitem: '&cPanel doesn''t have clickable item.'
+    notitem: '&cPlayer not found.'
+    error: '&cError found in config at'
+    needmoney: '&cInsufficient Funds!'
+    needitems: '&cInsufficient Items!'
+    bought: '&aSuccessfully Bought For $%cp-args%'
+    sold: '&aSuccessfully Sold For $%cp-args%'
+    signtag: '[CommandPanel]'
+    tag: '&6[&bCommandPanels&6]'

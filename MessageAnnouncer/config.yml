@@ -1,0 +1,23 @@
+# MessageAnnouncer v1.10.0 Main configuration
+announcer_enabled: true
+announcer_random: true
+announce_interval: 3600
+sound:
+  enabled: false
+  sound_name: NOTE_PLING
+  volume: 10
+  pitch: 1
+interval_announcement_list:
+- default
+- vote
+announcements:
+  default:
+  - '{"text":"--------","color":"dark_red","bold":true}'
+  - '{"text":"Vous pouvez faire un tour sur notre site internet pour vous inscrire","color":"gold","clickEvent":{"action":"open_url","value":"http://terasky.org/index.php"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Click
+    ici pour y aller","color":"gray"}]}}}'
+  - '{"text":"--------","color":"dark_red","bold":true}'
+  vote:
+  - '{"text":"--------","color":"dark_red","bold":true}'
+  - '{"text":"Pensez à voter pour le serveur sur notre site internet","color":"gold","clickEvent":{"action":"open_url","value":"http://terasky.org/index.php?&page=voter"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"Click
+    ici pour aller voter","color":"gray"}]}}}'
+  - '{"text":"--------","color":"dark_red","bold":true}'

@@ -1,0 +1,25 @@
+lastAccountName: Nezrow
+timestamps:
+  login: 1567333153373
+  lastteleport: 1567334119285
+  logout: 1567201757970
+  kits:
+    debutant: 1567333181241
+    menu: 1567333189643
+ipAddress: 83.196.34.150
+lastlocation:
+  world: ASkyBlock
+  x: -198.41729721826076
+  y: 118.0
+  z: 400.69999998807907
+  yaw: 79.07733
+  pitch: 11.249196
+logoutlocation:
+  world: ASkyBlock
+  x: -92.54011579502578
+  y: 99.0
+  z: -184.96298744915487
+  yaw: 181.14062
+  pitch: 9.474772
+afk: false
+money: '50078.0'
