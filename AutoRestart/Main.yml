@@ -1,4 +1,4 @@
-##M Main configuration values
+##Main configuration values
 main:
     ## restart modes availiable 'interval', and 'timestamp'
     restart_mode: 'timestamp'
